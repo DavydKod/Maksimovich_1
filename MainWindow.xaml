@@ -1,0 +1,21 @@
+﻿<Window x:Class="Maksimovich_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Maksimovich_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock Text="Enter your date of birth:" Margin="275,24,384,369" />
+
+        <DatePicker x:Name="datePicker" SelectedDateChanged="DateChanged"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="275,70,0,0"/>
+
+        <TextBlock x:Name="resultTextBlock" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="24" Width="165" Margin="275,126,0,0"/>
+
+        <TextBlock x:Name="westernZodiacSign" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="24" Width="220" Margin="80,185,0,0"/>
+
+        <TextBlock x:Name="chinaZodiacSign" HorizontalAlignment="Right" VerticalAlignment="Top" FontSize="24" Width="220" Margin="0,185,80,0"/>
+
+    </Grid>
+</Window>
